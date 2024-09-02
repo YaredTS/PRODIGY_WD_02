@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+ 
+ body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+ #show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid;
+    padding: 50px;
+    border-radius: 30px;
+    border-color: rgb(103, 6, 164,0.4);
+    background: rgb(255, 255, 255,.1);
+    backdrop-filter: blur(30px);
+}
+#myH1 {
+    font-size: 5rem;
+    color: #fff;
+}
+#container {
+    text-align: center;
+}
+#display {
+    font-size: 4rem;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px 2px 20px;
+}
+#btn {
+    margin-top: 10px;
+}
+#btn button {
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.5s ease;
+}
+#btn-start{
+    background-color: hsl(115, 100%, 40%);
+}
+#btn-start:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+#btn-stop{
+    background-color: hsl(10, 90%, 50%);
+}
+#btn-stop:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+#btn-reset{
+    background-color: hsl(205, 90%, 60%);
+}
+#btn-reset:hover{
+    background-color: hsl(205, 90%, 40%);
+}
